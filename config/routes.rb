@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  # resource points to the model, but you can also point to a route
+  # go to localhost:3000/rails/info/routes
+  resources :entries
 end
